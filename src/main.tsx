@@ -4,7 +4,6 @@ import App from './App'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Projects from './pages/Projects'
-import About from './pages/BlogDetails'
 import Newsletter from './pages/Newsletter'
 import Blog from './pages/Blog'
 import { Provider } from 'react-redux'
@@ -31,7 +30,9 @@ const routes=createBrowserRouter([{
         path:"newsletter",
       }
     ]   
-}])
+}],{
+  basename: "/The-Blog"
+})
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Provider store={store}>

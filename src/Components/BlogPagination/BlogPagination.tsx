@@ -94,7 +94,7 @@ const BlogPagination = () => {
           disabled={activePage === 1}
           onClick={() => applyPagination(activePage - 1)}
         >
-          <img src="/left.png" alt="previous" className="w-[15px] h-[15px]" />
+          <img src="/The-Blog/left.png" alt="previous" className="w-[15px] h-[15px]" />
           <span className="hidden sm:inline">Previous</span>
         </button>
 
@@ -133,7 +133,7 @@ const BlogPagination = () => {
           onClick={() => applyPagination(activePage + 1)}
         >
           <span className="hidden sm:inline">Next</span>
-          <img src="/right.png" alt="next" className="w-[15px] h-[15px]" />
+          <img src="/The-Blog/right.png" alt="next" className="w-[15px] h-[15px]" />
         </button>
       </div>
     </div>
