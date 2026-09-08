@@ -31,7 +31,7 @@ const routes=createBrowserRouter([{
       }
     ]   
 }],{
-  basename: "/The-Blog"
+  basename: "/Task-6-Adv"
 })
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

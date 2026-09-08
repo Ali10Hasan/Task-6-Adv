@@ -37,10 +37,10 @@ const NavBar = ({ logo, NavElement }: NavBarProps) => {
                 onClick={() => setIsMenuOpen((prev) => !prev)}
             >
                 {isMenuOpen ? (
-                    isDarkMode?<img src="/The-Blog/Exist.png"  alt="" />:<img src="/The-Blog/Exist1.png"  alt="" />
+                    isDarkMode?<img src="/Task-6-Adv/Exist.png"  alt="" />:<img src="/The-Blog/Exist1.png"  alt="" />
                    
                 ) : (
-                    <img className="w-[22px] h-[22px] dark:invert" src="/The-Blog/menu%20(1).png" alt="menu" />
+                    <img className="w-[22px] h-[22px] dark:invert" src="/Task-6-Adv/menu%20(1).png" alt="menu" />
                 )}
             </button>
 
