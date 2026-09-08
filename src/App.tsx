@@ -24,13 +24,13 @@ function App() {
    
   
   ],
-    modeIcon:["/sun.png","/moon.png"]
+    modeIcon:["/Task-6-Adv/sun.png","/Task-6-Adv/moon.png"]
   }
   return (
   
     <div className='content dark:bg-[#090D1F]'>
         <ThemeWatcher/>
-        <NavBar logo="Your Name" NavElement={NavElement} />
+        <NavBar logo="Ali's Blog" NavElement={NavElement} />
         <Outlet/>
     </div>
       
